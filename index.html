@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <style>
+        /* html{
+            scroll-behavior: smooth;
+        } */
+        body {
+            min-height: 100vh;
+        }
+
+        .www {
+            background-image: url(aaa.png);
+            min-height: 50vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        .face {
+            background-image: url(face.png);
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background-size: cover;
+            display: inline-block;
+            border: 0.5rem solid rgba(85, 163, 207, 0.5);
+        }
+
+        ul {
+            /* padding-left: 0; */
+            display: inline-block;
+            font-size: 1.3rem;
+            list-style-position: inside;
+        }
+
+        ul li {
+            text-align: left;
+            margin: 1rem;
+            padding-left: 2em;
+            text-indent: -1.2em;
+        }
+
+        footer {
+            background-color: darkgray;
+        }
+
+        .fa-instagram {
+            color: palevioletred;
+        }
+
+        .scroll-to-top {
+            position: fixed;
+            right: 1.25rem;
+            bottom: 1.25rem;
+            width: 50px;
+            height: 50px;
+            background: gray;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <div class="www"></div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="nav">
+        <a class="navbar-brand" href="#">SiteMap</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#profile">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#port">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section>
+        <div class="text-center" id="profile">
+            <p class="text-warning mb-0 mt-5">自己紹介</p>
+            <h1 class="mb-5">Profile</h1>
+            <div class="row">
+                <div class="col-lg-6 my-5">
+                    <div class="face"></div>
+                </div>
+                <ul class="col-lg-6 bg-white shadow-lg mb-5 rounded">
+                    <li>名前：大嶺 竜馬</li>
+                    <li>西暦：1999年1月13日生</li>
+                    <li>出身：沖縄県</li>
+                    <li>学歴：大阪商業大学経営学部</li>
+                    <li>活動：趣味は格闘技、海外旅行です<br>6年前からプロキックボクサーとしても活動しております<br>主にこれまで米軍基地内などの英語を扱うバイトを経験してきましたが、大学の講義でWebマーケティングについて学習して興味を持ち、独学で学習に励んでいます
+                    </li>
+                    <li>資格：ITパスポート・TOEIC650</li>
+                    <li>スキル：HTML,CSS,Javascriptでシンプルな動的サイトが作れるレベルです</li>
+                    <li>フレームワーク：Bootstrap　JQuery</li>
+                </ul>
+            </div>
+    </section>
+
+    <div class="text-center bg-info text-white p-3" id="port">
+        <p class="text-warning mb-0">制作物</p>
+        <h1 class="mb-5">Portfolio</h1>
+        <h4>GithubにUPしました</h4>
+        <div class="github">
+            <a href="https://github.com/Ryoma-Omine?tab=repositories"><i class="fab fa-github fa-3x text-dark"></i></a>
+        </div>
+    </div>
+
+    <footer class="border-top mt-auto text-center p-2" id="foot">
+        <form class="text-center p-3" id="contact">
+            <p class="text-warning mb-0">お問い合わせ</p>
+            <h1 class="mb-5">Contact</h1>
+            <p>メールまたはSNSでご連絡ください。</p>
+            <a href="mailto:muaithai@ezweb.ne.jp"><i class="far fa-envelope fa-3x p-2 text-dark"></i></a>
+            <a href="https://www.instagram.com/ryoma.oki/?hl=ja"><i class="fab fa-instagram fa-3x p-2"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100013756455344"><i
+                    class="fab fa-facebook fa-3x p-2"></i></a>
+        </form>
+    </footer>
+
+    <a href="#header" class="scroll-to-top rounded js-scroll-trigger" style="display: inline;">
+        <i class="fas fa-angle-up fa-3x text-white"></i>
+    </a>
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+</body>
+
+</html>
